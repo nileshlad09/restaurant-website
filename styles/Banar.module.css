@@ -1,0 +1,60 @@
+.navbar{
+    height: 55px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.navbar ul{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar ul li{
+    font-size: 1.3rem;
+}
+.navbar span{
+    font-size: 2rem;
+}
+
+.homePage{
+    background: url(../public/Img/background2.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+.homePage h2{
+    font-size: 4rem;
+    color: white;
+    line-height: 55px;   
+}
+.homePage h2 span{
+    color: red;
+}
+.btnGroup{
+    margin-top: 20px;
+}
+.btnGroup button a{
+ color: white;
+ text-decoration: none;
+}
+.btnGroup button{
+    width: 150px;
+    height: 40px;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid red;
+    border-radius: 20px;
+}

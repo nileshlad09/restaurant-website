@@ -1,0 +1,91 @@
+.categories{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+  
+  }
+  .container h1{
+    font-size: 2.5rem
+  }
+  .container h2{
+    font-size: 2rem
+  }
+  .container h3{
+    font-size: 1.5rem
+  }
+  .categories .list{
+    background-color: #373737;
+    color: white;
+    padding: 5px 10px;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .container{
+    margin-top: 10px;
+  }
+
+  .foodcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px 0 20px;
+  }
+  .card{
+    width: 260px;
+ }
+
+  .ordernow .ordernowForm{
+    background-color: #4458dc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+  }
+  .ordernow .ordernowForm button,
+  .ordernow .ordernowForm input{
+    height: 40px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+  }
+  .ordernow .ordernowForm .opt{
+    display: flex;
+    gap: 20px;
+  }
+  .ordernowForm span{
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .ordernow .orderItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #373737;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  .ordernow .orderItem img{
+    width:100px
+  }
+  .orderItem .name{
+    padding: 0 10px;
+  }
+  .quantity {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .quantity button{
+    background-color: #141313;
+    width: 40px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  .price{
+    font-size: 1.5rem;
+  }
