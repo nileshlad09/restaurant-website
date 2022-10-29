@@ -89,3 +89,17 @@
   .price{
     font-size: 1.5rem;
   }
+
+  .ordernowbtn{
+   border: 2px solid black;
+    color: black;
+    font-size: 1.8rem;
+    padding: 10px ;
+    border-radius: 30px;
+    text-decoration: none;
+    width: 100%;
+  }
+  .ordernowbtn:hover{
+    background-color: #141313;
+    color: white;
+  }

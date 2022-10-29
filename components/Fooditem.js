@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useCart } from "react-use-cart";
-import styles from '../styles/Categories.module.css'
+import styles from '../styles/Styles.module.css'
 export default function Fooditem(props) {
   const { food } = props;
   const { addItem } = useCart();

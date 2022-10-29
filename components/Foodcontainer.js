@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { useCart } from "react-use-cart";
 import Fooditem from "./Fooditem";
-import styles from '../styles/Categories.module.css'
+import styles from '../styles/Styles.module.css'
+import Link from "next/link";
 const Foodcontainer = (props) => {
   const { food } = props;
-  const {totalUniqueItems, updateItemQuantity, items } = useCart();
+  const {totalUniqueItems, updateItemQuantity, items, cartTotal } = useCart();
+
   return (
     <div className="row ">
       <div className="col-lg-8 col-md-9 col-sm-9">
@@ -16,7 +18,7 @@ const Foodcontainer = (props) => {
       </div>
       <div className={`col-lg-4 col-md-3 col-sm-3 ${styles.ordernow}`}>
       <h1>Total Item ({totalUniqueItems})</h1>
-
+      <h2>Total Amount Rs{cartTotal}</h2>
         {items.map((food, index) => {
           return (
             <div className={styles.orderItem} key={index}>
@@ -45,6 +47,7 @@ const Foodcontainer = (props) => {
             </div>
           );
         })}
+        <Link className={styles.ordernowbtn} href="/Paymentpage">Order Now</Link>
       </div>
     </div>
   );

@@ -1,7 +1,6 @@
 import React,{useEffect,useState} from 'react'
-import Foodcart from './Foodcart';
 import Foodcontainer from './Foodcontainer';
-import styles from '../styles/Categories.module.css'
+import styles from '../styles/Styles.module.css'
 import  { Starter, Beef, Chicken,Dessert,Seafood, Breakfast, Pasta, Vegetarian, Categorie } from './Data'
 const Categories = () => {
     const [categories , setCategories] = useState([])

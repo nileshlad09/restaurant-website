@@ -1,9 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Banar from '../components/Banar'
 import Categories from '../components/Categories'
-import Script from "next/script";
-import Footer from '../components/Footer';
 
 export default function Home() {
   return (

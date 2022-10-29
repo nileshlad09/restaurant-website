@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className={styles.footerArea}>
           <div className={styles.connectWithme}>
-            <p className="para">Connect with me</p>
+            <p className="para">Connect with us</p>
             <div className={styles.socialmedia}>
               <a
                 href="https://www.linkedin.com/in/nilesh-lad-476216216/"
